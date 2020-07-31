@@ -524,10 +524,10 @@ def informasi():
 			print 43*"\033[1;96m="
 			try:
 				print '\033[1;96m[➹] \033[1;93mNama\033[1;97m          : '+z['name']
-			except KeyError: print '\033[1;96m[?] \033[1;93mNama\033[1;97m          : \033[1;91mTidak ada'
+			except KeyError: print '\033[1;96m[?] \033[1;93mNama\033[1;97m          : \033[1;91mMr.LiChin'
 			try:
 				print '\033[1;96m[➹] \033[1;93mID\033[1;97m            : '+z['id']
-			except KeyError: print '\033[1;96m[?] \033[1;93mID\033[1;97m            : \033[1;91mTidak ada'
+			except KeyError: print '\033[1;96m[?] \033[1;93mID\033[1;97m            : \033[1;91m0881025'
 			try:
 				print '\033[1;96m[➹] \033[1;93mEmail\033[1;97m         : '+z['email']
 			except KeyError: print '\033[1;96m[?] \033[1;93mEmail\033[1;97m         : \033[1;91mTidak ada'
